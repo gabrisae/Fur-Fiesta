@@ -1,5 +1,7 @@
 # CIDM 3312 Final Project - Fur Fiesta
 # Name: Gabriela Saenz
+
+## I had issues with creating a migration, I deleted and created a few repositories because my migration could not be created because of a DB issue that I could not seem to fix. 
 ## Overview
 For the final project in CIDM 3312, you are tasked with creating an ASP.NET Core application using EF Core. This project will integrate all skills and technologies learned throughout the class into one comprehensive web application.
 
