@@ -1,0 +1,28 @@
+﻿@page
+@model FurFiestaApp.Pages.IndexModel
+
+<h1>Pets</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Breed</th>
+            <th>Age</th>
+            <th>Owner</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var pet in Model.Pets)
+{
+        <tr>
+            <td>@pet.Name</td>
+            <td>@pet.Species</td>
+            <td>@pet.Breed</td>
+            <td>@pet.Age</td>
+            <td>@pet.Owner.Username</td>
+        </tr>
+}
+    </tbody>
+</table>
